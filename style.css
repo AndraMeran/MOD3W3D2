@@ -1,0 +1,75 @@
+.bi-bell {
+    font-size: 20px
+}
+
+.navbar-nav img {
+    width: 45px;
+    border-radius: 100%;
+}
+
+.jumbotron {
+    background-color: #754ffe;
+    color: white;
+    font-family: sans-serif;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-bar {
+    background-color: white;
+}
+
+.spans {
+    background-color: #f6e2cd;
+    width: 50px;
+    height: 50px;
+
+}
+
+.spans .bi {
+    color: rgb(169, 83, 22);
+}
+
+.recomended {
+    background-color: #f5f4f8;
+}
+
+.avatar {
+    width: 30px;
+    border-radius: 100%;
+}
+
+.bi.bi-reception-4 {
+    color: purple;
+}
+
+.stars {
+    color: rgb(232, 131, 49);
+}
+
+.total {
+    color: black;
+}
+
+.new-price i,
+.old-price i {
+    margin-right: 0px;
+}
+
+.card-footer {
+    background-color: white;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+.card-body-2,
+.stars,
+.price,
+.avatar-name {
+    font-size: 14px;
+}
