@@ -35,7 +35,8 @@
 
 .recomended,
 .most-popular,
-.trending {
+.trending,
+footer {
     background-color: #f5f4f8;
 }
 
@@ -76,4 +77,17 @@ h5 {
 .price,
 .avatar-name {
     font-size: 14px;
+}
+
+.trending {
+    padding: 100px;
+}
+
+footer a.link-offset-2 {
+    color: gray !important;
+    transition: color 0.3s;
+}
+
+footer a.link-offset-2:hover {
+    color: purple !important;
 }
