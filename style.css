@@ -33,7 +33,9 @@
     color: rgb(169, 83, 22);
 }
 
-.recomended {
+.recomended,
+.most-popular,
+.trending {
     background-color: #f5f4f8;
 }
 
@@ -42,7 +44,9 @@
     border-radius: 100%;
 }
 
-.bi.bi-reception-4 {
+.bi.bi-reception-4,
+.bi.bi-reception-3,
+.bi.bi-reception-2 {
     color: purple;
 }
 
