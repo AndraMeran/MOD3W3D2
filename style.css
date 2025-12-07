@@ -102,6 +102,10 @@ footer a.link-offset-2:hover {
     color: purple !important;
 }
 
+.nav-link:hover {
+    color: purple
+}
+
 .card-title {
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -203,4 +207,31 @@ footer a.link-offset-2:hover {
 .card-body2,
 .stars {
     opacity: 60%;
+}
+
+/* extra profile
+*/
+.notification-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: purple;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.avatar-badge {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f8f9fa;
 }
