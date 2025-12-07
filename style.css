@@ -80,7 +80,17 @@ h5 {
 }
 
 .trending {
-    padding: 100px;
+    padding-bottom: 120px;
+}
+
+
+@media (max-width: 768px) {
+
+    .recomended,
+    .most-popular,
+    .trending {
+        padding: 40px 0;
+    }
 }
 
 footer a.link-offset-2 {
@@ -90,4 +100,107 @@ footer a.link-offset-2 {
 
 footer a.link-offset-2:hover {
     color: purple !important;
+}
+
+.card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.avatar-name {
+    max-width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card,
+.card-body,
+.card-body-2,
+.stars,
+.price,
+.card-footer,
+.card-footer .d-flex {
+    min-width: 0;
+}
+
+.card-body-2 span,
+.stars span,
+.price span {
+    min-width: 0;
+}
+
+.time,
+.level,
+.total {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+
+    .card-title {
+        font-size: 15px;
+        -webkit-line-clamp: 2;
+    }
+
+    .avatar-name,
+    .level,
+    .total,
+    .time {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.card-footer .d-flex {
+    min-width: 0;
+}
+
+.card {
+    transition: transform 0.5s ease, box-shadow 0.5s ease
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+}
+
+.card-footer img {
+    transition: transform 0.5s ease, color 0.5s ease
+}
+
+.card-footer img:hover {
+    transform: scale(2);
+}
+
+.card-footer .bi-bookmark {
+    color: gray;
+    transition: all 0.3s ease;
+}
+
+.card-footer .bi-bookmark:hover {
+    color: purple;
+    transform: scale(1.8);
+}
+
+.card-body2,
+.stars {
+    opacity: 60%;
 }
